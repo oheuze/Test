@@ -1,0 +1,18 @@
+
+
+cd Lagrange-1D
+make clone_cxx_wrap_lib
+make build_cxx_wrap_lib
+make config_cmake
+make compile
+cd Matériaux/EoS-libs
+make
+make
+make
+make
+make
+make
+make
+make
+cd ../..
+./lancer_tous_les_cas
